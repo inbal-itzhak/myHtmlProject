@@ -1,0 +1,129 @@
+body{
+    background-image: url('images/background.jpg');
+	color: white;
+	<!-- text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);-->
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+	margin-top: 50px;
+}
+h1{
+	font: Arial Unicode MS;
+	font-size: 50;
+	text-align: center;
+}
+
+h2{
+	font-size: 45; 
+	color: white;
+	margin-top: 100px;
+}
+dl{
+	font: Arial;
+	font-size: 16;
+	line-height: 1.7;
+	
+}
+
+#MyName{
+	font: Arial Unicode MS;
+	font-size: 70;
+	text-align: center;
+	color: white;
+}
+#inbal {
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  padding: 5px;
+  width: 230px;
+  
+}
+
+#WWWIcon {
+	width: 20px;
+	border: 1px solid #ddd;
+	border-width: 0;
+}
+#FacebookIcon{
+	width: 20px;
+	border: 1px solid #ddd;
+}
+#TelegramIcon{
+	width: 20px;
+	border: 1px solid #ddd;
+}
+
+a:link{
+	color: white;
+}
+a:hover{
+	font-weight:bold;
+}	
+a:visited{
+	color: violet;
+}
+a:visited:hover{
+	color: blue;
+	font-weight:bold;
+}
+
+#TopLinks{
+	text-align: center;
+	color:white;
+	font-size: 20;
+}
+
+#whoAmI{
+	text-align: center;
+	line-height: 1.5;
+	font-size: 20;
+}
+
+#BackToHome{
+	text-align: center;
+}
+	
+iframe{
+	display: block;
+	margin: 0 auto;
+}
+#JobLinks{
+	text-align: center;
+}
+.collapsible{
+	margin-right: 750px;
+	text-align: right;
+}
+
+
+.hidden {
+    display: none;
+}
+.gray-block{
+	background-color: #191970;
+	padding: 50px;
+	border: 1px solid black;
+	width: 70%;
+	margin: 0 auto;
+}
+.gray-block img{
+	float: left;
+	margin-right: 20px;
+	height:auto;
+	border-radius: 50%;
+}
+.gray-block p{
+	color: black;
+	font-size: 60;
+}
+
+#contactForm{
+	text-align: center;
+}
+
+
+
+
+
+
+	
