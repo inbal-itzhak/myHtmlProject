@@ -130,6 +130,34 @@ dl{
 		}
 }
 
+#qaImage{
+	height:200;
+	width:40%;
+	vertical-align:middle;
+	@media (max-width:768px){
+		
+		width:100%;
+	}
+}
+
+#needToKnow{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding:20px;
+}
+
+#needToKnowText{
+	font: Frank Ruhl Libre Black;
+  text-align: right;
+  line-height:1.5;
+	   width: 100%
+	    @media (max-width:768px)
+		{
+			width:50%
+		}
+}
+
 .text-box {
 	display: flex;
     flex-direction: column;
@@ -137,6 +165,7 @@ dl{
     width: 50%; 
     padding: 20px;
     background-color:none;
+	text-align:right;
     @media (max-width: 768px) {
         width: 95%;
     }
